@@ -12,7 +12,7 @@ function produceDrivingRange(blockRange){
       return `${Math.abs(difference)} blocks out of range`
     }
   }
-}
+}  
 
 function produceTipCalculator(b){
   return function(a){
