@@ -9,8 +9,7 @@ function produceDrivingRange(blockRange){
     if( difference > 0){
       return "within range by "+difference
     } else {
-      let difference=Math.abs(difference)
-      return difference+" blocks out of range"
+      return Math.abs(difference)+ 'blocks out of range'
     }
   }
 }
