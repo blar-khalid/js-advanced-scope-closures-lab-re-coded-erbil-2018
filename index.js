@@ -13,3 +13,9 @@ function produceDrivingRange(blockRange){
     }
   }
 }
+
+function produceTipCalculator(percentage){
+  return function(a){
+    return a*percentage;
+  }
+}
